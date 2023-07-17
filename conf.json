@@ -1,0 +1,14 @@
+{
+  "model_name" : "cnn",
+  "no_clients" : 30,
+  "type" : "cifar10",
+  "global_epochs" : 30,
+  "local_epochs" : 3,
+  "batch_size" : 64,
+  "lr" : 0.01,
+  "momentum" : 0.9,
+  "frac": 0.6,
+  "mal_frac": 0.3,
+  "attack": 0,
+  "poison_label": 2
+}
